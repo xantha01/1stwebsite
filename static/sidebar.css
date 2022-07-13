@@ -1,0 +1,28 @@
+.sidebar{
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  background-color: white;
+  border-right-width: 1px;
+  border-right-color: rgb(220, 220, 220);
+  border-right-style: solid;
+  z-index: 200;
+
+}
+
+.sidebariconscontainers{
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebariconscontainers:hover{
+  background-color: rgb(234, 234, 234);
+  cursor: pointer;
+}
+
+.sidebariconscontainers img{
+  height: 35px;
+}
